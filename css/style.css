@@ -2,16 +2,16 @@
 img{
     width: 100%;
 }
-section{
-    margin-bottom: 3rem;
-}
+
 /* container */
 
 .my-container-header{
     max-width: 400px;
     margin: auto;
 }
-
+main > section{
+    margin-bottom: 3rem;
+}
 /* header */
 header{
     background-color: #1abc9c;
@@ -20,8 +20,8 @@ body{
     color: white;
 }
 /* first-section */
-.first-section, footer{
-    background-color: #2c3e50;
+.first-section, .sixth-section{
+    background-color: #3a546d;
 }
 .first-section ul, .sixth-section ul{
     display: flex;
@@ -59,4 +59,8 @@ body{
 
 .fifth-section{
     color: black;
+}
+/* seventh-section */
+.seventh-section{
+    background-color: #2c3e50;
 }
