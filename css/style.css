@@ -32,3 +32,11 @@ header{
 .second-section img{
     width: 80%;
 }
+/* third-section */
+
+.third-section > row:not(:first-child) [class*="col-"]{
+    background-color: #ba4b63;
+}
+.third-section img{
+    border-radius: 1rem;
+}
