@@ -4,7 +4,7 @@ img{
 }
 /* header */
 
-header{
+header, main{
     color: white;
 }
 /* first-section */
@@ -24,11 +24,11 @@ header{
     color: white;
 }
 /* second-section */
-.second-section{
+.second-section, .fourth-section{
     background-color: #1abc9c;
 }
-.my-container-header{
-    max-width: 600px;
+.my-container{
+    max-width: 400px;
     margin: auto;
 }
 .second-section img{
@@ -42,3 +42,13 @@ header{
 .third-section img{
     border-radius: 1rem;
 }
+/* fourth-section */
+
+
+
+
+
+
+
+
+
