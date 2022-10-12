@@ -1,5 +1,4 @@
 /* my star */
-
 .my-star {
     position: relative;
 }
@@ -12,7 +11,7 @@
     position: absolute;
     top: 50%;
     right: 10%;
-    background-color: var(--secondary-text-color);
+    background-color: var(--primary-text-color);
 }
 .my-star::after{
     content: " ";
@@ -22,10 +21,13 @@
     height: 2px;
     top: 50%;
     left: 10%;
-    background-color: var(--secondary-text-color);
+    background-color: var(--primary-text-color);
 }
 
-
+.third-section .my-star::after, .third-section .my-star::before,
+.fifth-section .my-star::after, .fifth-section .my-star::before {
+    background-color: var(--secondary-text-color);
+}
 /* circle link */
 
 .my-circle{
