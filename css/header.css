@@ -1,0 +1,25 @@
+/* header */
+header{
+    background-color: #1abc9c;
+}
+
+/* first-section */
+.first-section, .sixth-section{
+    background-color: #3a546d;
+}
+.first-section ul, .sixth-section ul{
+    display: flex;
+    list-style: none;
+    margin:0;
+}
+.first-section ul li, .sixth-section ul li {
+    padding: 0rem 1rem;
+}
+.first-section ul li a, .sixth-section ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* second-section */
+.second-section img{
+    width: 50%;
+}

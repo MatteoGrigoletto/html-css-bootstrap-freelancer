@@ -1,0 +1,28 @@
+/* my star */
+
+.my-star i{
+    position: relative; 
+}
+
+.my-star i::after{
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    right: 200%;
+    background-color: white;
+}
+
+/* circle link */
+
+.my-circle{
+    height: 1.875rem;
+    width: 1.875rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .0625rem solid white;
+}

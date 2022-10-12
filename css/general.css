@@ -1,0 +1,24 @@
+/* general */
+img{
+    width: 100%;
+}
+body{
+    color: white;
+}
+main > section{
+    margin-bottom: 3rem;
+}
+/* buttons */
+
+.my-buttons{
+    background-color: transparent;
+    border-radius: .3125rem;
+    border-color: inherit ;
+}
+
+/* container */
+
+.my-container-header{
+    max-width: 400px;
+    margin: auto;
+}

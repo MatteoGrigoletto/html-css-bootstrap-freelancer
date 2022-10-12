@@ -1,0 +1,22 @@
+/* third-section */
+
+.third-section > row:not(:first-child) [class*="col-"]{
+    background-color: #ba4b63;
+}
+.third-section img{
+    border-radius: 1rem;
+}
+.third-section{
+    color: black;
+}
+/* fourth-section */
+
+.fourth-section{
+    background-color: #1abc9c;
+}
+
+/* fifth-section */
+
+.fifth-section{
+    color: black;
+}
