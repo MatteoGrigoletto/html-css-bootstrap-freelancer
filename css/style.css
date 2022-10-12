@@ -41,7 +41,7 @@ body{
     background-color: #1abc9c;
 }
 .second-section img{
-    width: 80%;
+    width: 50%;
 }
 /* third-section */
 
@@ -51,10 +51,9 @@ body{
 .third-section img{
     border-radius: 1rem;
 }
-/* fourth-section */
-
-
-
+.third-section{
+    color: black;
+}
 
 /* fifth-section */
 
