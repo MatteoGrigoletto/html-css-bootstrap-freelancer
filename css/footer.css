@@ -1,3 +1,10 @@
+/* sixth-section */
+
+.sixth-section span{
+    color: var(--primary-background-color);
+    font-weight: bold;
+}
+
 
 /* seventh-section */
 .seventh-section{

@@ -14,6 +14,7 @@ main > section{
     background-color: transparent;
     border-radius: .3125rem;
     border-color: inherit ;
+    color: inherit;
 }
 
 /* container */
