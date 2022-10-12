@@ -1,19 +1,30 @@
 /* my star */
 
-.my-star i{
-    position: relative; 
+.my-star {
+    position: relative;
 }
 
-.my-star i::after{
+.my-star::before{
     content: " ";
     display: block;
     width: 100px;
     height: 2px;
     position: absolute;
     top: 50%;
-    right: 200%;
+    right: 10%;
     background-color: var(--primary-text-color);
 }
+.my-star::after{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 2px;
+    top: 50%;
+    left: 10%;
+    background-color: var(--primary-text-color);
+}
+
 
 /* circle link */
 

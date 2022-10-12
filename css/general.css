@@ -4,6 +4,7 @@ img{
 }
 body{
     color: var(--primary-text-color);
+    font-weight: bold;
 }
 main > section{
     margin-bottom: 3rem;
