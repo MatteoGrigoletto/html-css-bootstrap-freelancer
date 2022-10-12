@@ -10,3 +10,19 @@
 .seventh-section{
     background-color: var(--secondary-background-color)
 }
+.fifth-section .my-form{
+    border: none;
+    border-bottom: 1px solid grey;
+    border-radius: 0%;
+}
+.fifth-section {
+    border: none;
+}
+.my-btn-send{
+    margin-top: 6rem;
+}
+.my-btn-send > *{
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    border-radius: .3125rem;
+}
