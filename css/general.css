@@ -3,7 +3,7 @@ img{
     width: 100%;
 }
 body{
-    color: white;
+    color: var(--primary-text-color);
 }
 main > section{
     margin-bottom: 3rem;

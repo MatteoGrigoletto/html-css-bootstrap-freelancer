@@ -1,11 +1,11 @@
 /* header */
 header{
-    background-color: #1abc9c;
+    background-color: var(--primary-background-color);
 }
 
 /* first-section */
 .first-section, .sixth-section{
-    background-color: #3a546d;
+    background-color: var(--third-background-color);
 }
 .first-section ul, .sixth-section ul{
     display: flex;
@@ -17,7 +17,7 @@ header{
 }
 .first-section ul li a, .sixth-section ul li a{
     text-decoration: none;
-    color: white;
+    color: var(--primary-text-color);
 }
 /* second-section */
 .second-section img{
